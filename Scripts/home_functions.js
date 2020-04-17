@@ -553,27 +553,27 @@ function downloadZip()
                             if(pass == true && merit == true && distinction == true)
                             {
                                 finalGrade = "Distinction";
-                                imgLink = "../Images/cat2.png";
+                                imgLink = "https://raw.githubusercontent.com/nikitos1997/Portable-student-feedback-application/master/Images/cat2.png";
                             }
                             if(pass == true && merit == true && distinction == false)
                             {
                                 finalGrade = "Merit";
-                                imgLink = "../Images/cat2.png";
+                                imgLink = "https://raw.githubusercontent.com/nikitos1997/Portable-student-feedback-application/master/Images/cat2.png";
                             }
                             if(pass == true && merit == false && distinction == false)
                             {
                                 finalGrade = "Pass";
-                                imgLink = "../Images/cat2.png";
+                                imgLink = "https://raw.githubusercontent.com/nikitos1997/Portable-student-feedback-application/master/Images/cat2.png";
                             }
                             if(pass == true && merit == false && distinction == true)
                             {
                                 finalGrade = "Pass";
-                                imgLink = "../Images/cat2.png";
+                                imgLink = "https://raw.githubusercontent.com/nikitos1997/Portable-student-feedback-application/master/Images/cat2.png";
                             }
                             if(pass == false)
                             {
                                 finalGrade = "Fail";
-                                imgLink = "../Images/cat1.png";
+                                imgLink = "https://raw.githubusercontent.com/nikitos1997/Portable-student-feedback-application/master/Images/cat1.png";
                             }
                             html+='\n\t\t <button class="accordion pass">Final comment</button>';
                             html+='\n\t\t <div class="section">';
