@@ -549,7 +549,7 @@ function downloadZip()
                             {
                                 distinction = true;//Else distinction is true
                             }
-                            //Final grade determination
+                            //Final grade determination, change image link to reward pictures if are different or coming from different source
                             if(pass == true && merit == true && distinction == true)
                             {
                                 finalGrade = "Distinction";
