@@ -1,1 +1,230 @@
-
+body{
+    background-color:#3399cc;
+}
+#csvUpload{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    font-family: Arial;
+    background-color: #3399cc;
+    color: white;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    overflow:hidden;
+    font-size: 1.5vw;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.title{
+    top: 10%;
+    position: absolute;
+    font-size: 2.5vw;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+#generateFeedbackButton{
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    border:none;
+    font-family: Arial;
+    text-align: center;
+    color:white;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    background: #339900;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.5vw;
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transition:all 0.5s ease-in-out;
+    -o-transition:all 0.5s ease-in-out;
+    transition:all 0.5s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+#generateFeedbackButton:hover{
+    background: #33cc33;
+}
+.container{
+    top:80%;
+    left:50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-size: 2.5vw;
+}
+a{
+    color:white;
+}
+.icon{
+    position: absolute;
+    top:3px;
+    right:1px;
+    margin-right: 5px;
+    height:auto;
+    width:4%;
+}
+#hide input[type=file] {
+    display:none;
+    margin:10px;
+}
+#hide input[type=file] + label {
+    display:inline-block;
+    margin:20px;
+    padding: 4px 32px;
+    background-color: #FFFFFF;
+    border:solid 1px #666F77;
+    -webkit-border-radius: 6px;
+            border-radius: 6px;
+    color:#666F77;
+}
+#hide input[type=file]:active + label {
+    background-image: none;
+    background-color:#2D6C7A;
+    color:#FFFFFF;
+}
+@media screen and (max-width:1920px)
+{
+    .title{
+        font-size:6vw;
+    }
+    #generateFeedbackButton{
+        font-size: 3vw;
+    }
+    #csvUpload{
+        font-size: 3vw;
+    }
+    .container{
+        font-size: 3vw;
+    }
+    .icon{
+        width:5%;
+    }
+}
+@media screen and (max-width:1536px)
+{
+    .title{
+        font-size:4.5vw;
+    }
+    #generateFeedbackButton{
+        font-size: 4vw;
+    }
+    #csvUpload{
+        font-size: 3vw;
+    }
+    .container{
+        font-size: 3vw;
+    }
+    .icon{
+        width:6%;
+    }
+}
+@media screen and (max-width:1440px)
+{
+    .title{
+        font-size:4.5vw;
+    }
+    #generateFeedbackButton{
+        font-size: 4vw;
+    }
+    #csvUpload{
+        font-size: 3vw;
+    }
+    .container{
+        font-size: 3vw;
+    }
+    .icon{
+        width:6%;
+    }
+}
+@media screen and (max-width:1366px)
+{
+    .title{
+        font-size:4vw;
+    }
+    #generateFeedbackButton{
+        font-size: 3vw;
+    }
+    #csvUpload{
+        font-size: 3vw;
+    }
+    .container{
+        font-size: 3vw;
+    }
+    .icon{
+        width:5%;
+    }
+}
+@media screen and (max-width:1000px)
+{
+    .title{
+        font-size:4vw;
+    }
+    #generateFeedbackButton{
+        font-size: 3.5vw;
+    }
+    #csvUpload{
+        font-size: 3.5vw;
+    }
+    .container{
+        font-size: 3.5vw;
+    }
+    .icon{
+        width:8%;
+    }
+}
+@media screen and (max-width:375px)
+{
+    .title{
+        font-size:2.5vw;
+    }
+    #generateFeedbackButton{
+        font-size: 1.5vw;
+    }
+    #csvUpload{
+        font-size: 1.5vw;
+    }
+    .container{
+        font-size: 1.5vw;
+    }
+    .icon{
+        width:5%;
+    }
+}
+@media screen and (max-width:360px)
+{
+    .title{
+        font-size:2.5vw;
+    }
+    #generateFeedbackButton{
+        font-size: 1.5vw;
+    }
+    #csvUpload{
+        font-size: 1.5vw;
+    }
+    .container{
+        font-size: 1.5vw;
+    }
+    .icon{
+        width:5%;
+    }
+}
